@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylesheet.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+  <div class="header">
+    <img scr="" alt="">
+    <img src="./image/header.png" alt="Logo for My First Website" >
+
+    <section class="p-menu1">
+      <nav id="navbar" class="navigation" role="navigation">
+        <input id="toggle1" type="checkbox" />
+        <label class="hamburger1" for="toggle1">
+          <div class="top"></div>
+          <div class="meat"></div>
+          <div class="bottom"></div>
+        </label>
+      
+        <nav class="menu1">
+          <a class="link1" href="index.html">Home</a>
+          <a class="link1" href="contact.html">Contact</a>
+          <a class="link1" href="hikes.html">Our hikes</a>
+          <a class="link1" href="guides.html">Our guides</a>
+          <a class="link1" href="sustainability.html">Sustainability</a>
+          <a class="link1" href="health&safety.html">Health & Safety</a>
+          <a class="link1" href="faq.html">FAQ</a>
+         
+        </nav>
+    </nav>
+    </section>
+       
+        
+    <div class="form">
+
+        <form action="form-sucess.php" method="POST">
+          <fieldset>
+            <legend>your details</legend>
+            <div class="fields">
+              <label for="name">First name:
+                <input type="text" name="name" id="name" class="form__input" required>
+              </label>
+              <label for="name">Last name:
+                <input type="text" name="name" id="name" class="form__input" required>
+              </label>
+              <p>Select hike:</p>
+                <div class="radio-buttons"> 
+                  <label for="Short hikes" class="radio">Short hikes 
+                    <input type="radio" id="length" name="hike" value="short" />
+                  </label>
+                  <label for="camping hikes" class="radio">camping hikes 
+                    <input type="radio" id="length" name="hike" value="camping" />
+                  </label>
+                  <label for="Long hikes" class="radio">Long hikes 
+                    <input type="radio" id="lenght" name="hike" value="long" />
+                  </label> 
+                  <fieldset>
+                    <legend>Name of hike:</legend>
+                    <select name="Hike name">
+                      <option value="Weekend in the Pyrénées">Weekend in the Pyrénées</option>
+                      <option value="Seven mountains, Bergen">Seven mountains, Bergen</option>
+                      <option value="Monte Capanne, Tuscany">Monte Capanne, Tuscany</option>
+                      <option value="Camping in the Atlas Mountains of Morrocco">Camping in the Atlas Mountains of Morrocco</option>
+                      <option value="Yurt camping in Mongolia">Yurt camping in Mongolia</option>
+                      <option value="Camping excursion in Yellowstone park">Camping excursion in Yellowstone park</option>
+                      <option value="Larapinta Trail, Australia">Larapinta Trail, Australia</option>
+                      <option value="Patagonia, Argentina/Chile">Patagonia, Argentina/Chile</option>
+                      <option value="Larapinta Trail, Australia">Jammu and Kashmir, India</option>
+                    </select>
+                  </fieldset>
+                  <label for="name">Phone:
+                    <input type="text" name="name" id="name" class="form__input" required>
+                  </label>
+                  <label for="name">Email:
+                    <input type="text" name="name" id="name" class="form__input" required>
+                  </label>
+                  <input type="submit">
+
+<div class="footer">
+                   
+</div>
+</body>
+</html>
